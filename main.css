@@ -1,26 +1,79 @@
 body {
-    margin: 0px; padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
-
+    border-bottom: 2px solid #dc0101;
 }
 
-.page {
+.page {}
 
-}
-
-.footer {
-
-}
+.footer {}
 
 .column {
     border: 1px solid black;
     width: 1000px;
     margin: 0px auto;
-   
+
 }
 
 .page .column {
     height: 100vh;
+}
+
+#logo-i-social {
+    display: flex;
+}
+
+#logo-holder {
+    flex-grow: 1;
+
+}
+
+#social-holder {
+    flex-grow: 1;
+    text-align: right;
+    
+
+}
+#social-holder a {
+    text-decoration: none;
+}
+#main-menu {
+    display: flex;
+    
+}
+
+#main-menu a {
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: red;
+    transition: 200ms;
+
+}
+
+#main-menu a:hover,
+#main-menu a.active {
+    background: red;
+    color: seashell;
+
+}
+
+#pocetna {
+    text-align:center;
+    color:white;
+    background: url('assets/WIN_20211211_19_12_12_Pro.jpg');
+}
+#pocetna h1 {
+    font-size: 48pt;
+    padding-top: 50px;
+}
+.dark-box {
+    border: 1px solid white;
+    background-color: #33333370;
+    font-size: 30pt;
 }
