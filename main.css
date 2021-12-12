@@ -67,13 +67,17 @@ body {
     text-align:center;
     color:white;
     background: url('assets/WIN_20211211_19_12_12_Pro.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 #pocetna h1 {
     font-size: 48pt;
-    padding-top: 50px;
+    padding-top: calc(50vh - 250px);
+    margin-top: 0px;
 }
 .dark-box {
     border: 1px solid white;
     background-color: #33333370;
     font-size: 30pt;
+    padding: 40px;
 }
