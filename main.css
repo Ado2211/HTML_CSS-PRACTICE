@@ -81,3 +81,13 @@ body {
     font-size: 30pt;
     padding: 40px;
 }
+#usluge {
+    background: url('assets/slika2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#karijera {
+    background: url('assets/slika3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
