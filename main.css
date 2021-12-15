@@ -12,7 +12,7 @@ body {
 .footer {}
 
 .column {
-   
+
     width: 1000px;
     margin: 0px auto;
 
@@ -130,24 +130,80 @@ body {
     font-weight: bold;
     margin-top: 10px;
 }
+
 .tehnologije {
     display: flex;
     margin: 30px 0;
 
 }
+
 .tehnologija {
     flex-grow: 1;
     text-align: center;
 
 }
+
 .tehnologija img {
     width: 48px;
     height: 48px;
-    
-    
+
+
 
 }
+
 .tehnologija p {
-    font-weight:bold;
+    font-weight: bold;
+
+}
+
+#usluge {
+    color: black;
+
+}
+
+#usluge h2 {
+    padding-top: 20px;
+}
+
+.service-row {
+    display: flex;
+    margin-bottom: 40px;
+    
+    justify-content: space-between;
+}
+
+.service-row>div {
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 1px solid white;
+
+
+}
+
+.service-row>div>img {
+width:300px;
+height: 150px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.service-row>div>p {
+    position: absolute;
+  
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #ffffffa2;
+    margin-bottom: 0px;
+    color:black;
+    font-weight: bold;
+    border-top: 1px solid white;
 
 }
