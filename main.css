@@ -221,7 +221,7 @@ body {
         "f f g";
     align-content: space-between;
     justify-content: space-between;
-   
+
 }
 
 #proizvod-a {
@@ -261,8 +261,8 @@ body {
 }
 
 .proizvod img {
-    grid-area:region;
-    grid-area:auto;
+    grid-area: region;
+    grid-area: auto;
     justify-self: stretch;
     align-self: stretch
 }
@@ -288,7 +288,7 @@ body {
 
 #karijera h2 {
     padding-top: 50px;
-    text-align:center
+    text-align: center;
 }
 
 .career-columns {
@@ -297,9 +297,67 @@ body {
 
 .job-list {
     flex-grow: 1;
+    flex-basis: 0;
 }
 
 .job-descriptions {
     flex-grow: 2;
+    flex-basis: 0;
 }
 
+.job-list label {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: #ffffffc0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.job-descriptions input {
+    display: none;
+}
+
+.job-descriptions .job-description {
+    display: none;
+
+}
+
+.job-descriptions input:checked+.job-description {
+    display: block;
+}
+
+.job-description {
+
+    margin-left: 10px;
+    border: 1px solid black;
+    background-color: #ffffffc0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#kontakt h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.kontakt-region {
+    display: grid;
+    grid-template: "adrese  mapa"
+        "mejlovi mapa";
+    grid-template-columns: 300px 1fr;
+}
+.kontakt-adrese {
+    grid-area: adrese;
+}
+
+.kontakt-mejlovi {
+grid-area: mejlovi;
+}
+
+.kontakt-mapa {
+    grid-area: mapa;
+}
