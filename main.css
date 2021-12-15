@@ -12,7 +12,7 @@ body {
 .footer {}
 
 .column {
-    border: 1px solid black;
+   
     width: 1000px;
     margin: 0px auto;
 
@@ -104,6 +104,7 @@ body {
 
 .krugovi {
     display: flex;
+    margin: 30px 0;
 }
 
 .krug-holder {
@@ -120,10 +121,33 @@ body {
     height: 50px;
     padding: 25%;
     display: inline-block;
-border-radius: 50%;
-font-weight: bold;
+    border-radius: 50%;
+    font-weight: bold;
 }
-.oznaka{
+
+.oznaka {
     font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.tehnologije {
+    display: flex;
+    margin: 30px 0;
+
+}
+.tehnologija {
+    flex-grow: 1;
+    text-align: center;
+
+}
+.tehnologija img {
+    width: 48px;
+    height: 48px;
     
+    
+
+}
+.tehnologija p {
+    font-weight:bold;
+
 }
