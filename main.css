@@ -1,21 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Calibri, sans-serif;
 }
 
 .header {
     border-bottom: 2px solid #dc0101;
+    background-color: #fefefe;
 }
-
-.page {}
-
-.footer {}
 
 .column {
 
     width: 1000px;
     margin: 0px auto;
-
 }
 
 .page .column {
@@ -34,8 +35,6 @@ body {
 #social-holder {
     flex-grow: 1;
     text-align: right;
-
-
 }
 
 #social-holder a {
@@ -44,7 +43,6 @@ body {
 
 #main-menu {
     display: flex;
-
 }
 
 #main-menu a {
@@ -55,22 +53,21 @@ body {
     text-decoration: none;
     color: red;
     transition: 200ms;
-
 }
 
 #main-menu a:hover,
 #main-menu a.active {
     background: red;
     color: seashell;
-
 }
 
 #pocetna {
     text-align: center;
     color: black;
-    background: url('assets/WIN_20211211_19_12_12_Pro.jpg');
+    background: url('assets/slika9.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-size: contain;
 }
 
 #pocetna h1 {
@@ -87,15 +84,17 @@ body {
 }
 
 #usluge {
-    background: url('assets/slika2.jpg');
+    background: url('assets/slika8.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-size: contain;
 }
 
 #karijera {
-    background: url('assets/slika3.jpg');
+    background: url('assets/slika10.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-size: contain;
 }
 
 .align-center {
@@ -134,31 +133,24 @@ body {
 .tehnologije {
     display: flex;
     margin: 30px 0;
-
 }
 
 .tehnologija {
     flex-grow: 1;
     text-align: center;
-
 }
 
 .tehnologija img {
     width: 48px;
     height: 48px;
-
-
-
 }
 
 .tehnologija p {
     font-weight: bold;
-
 }
 
 #usluge {
-    color: black;
-
+    color: rgb(241, 235, 235);
 }
 
 #usluge h2 {
@@ -168,7 +160,6 @@ body {
 .service-row {
     display: flex;
     margin-bottom: 40px;
-
     justify-content: space-between;
 }
 
@@ -179,7 +170,6 @@ body {
     width: 300px;
     height: 150px;
     border: 1px solid white;
-
 }
 
 .service-row>div>img {
@@ -204,7 +194,6 @@ body {
     color: black;
     font-weight: bold;
     border-top: 1px solid rgb(235, 231, 231);
-
 }
 
 #proizvodi h2 {
@@ -221,7 +210,6 @@ body {
         "f f g";
     align-content: space-between;
     justify-content: space-between;
-
 }
 
 #proizvod-a {
@@ -289,6 +277,7 @@ body {
 #karijera h2 {
     padding-top: 50px;
     text-align: center;
+    color: yellow;
 }
 
 .career-columns {
@@ -350,14 +339,69 @@ body {
         "mejlovi mapa";
     grid-template-columns: 300px 1fr;
 }
+
 .kontakt-adrese {
     grid-area: adrese;
+    padding-bottom: 15px;
+    font-size: 14px;
 }
 
 .kontakt-mejlovi {
-grid-area: mejlovi;
+    grid-area: mejlovi;
+    font-size: 14px;
+
+}
+
+.kontakt-mejlovi a {
+    text-decoration: none;
+    color: #dc0101;
+}
+
+.kontakt-mejlovi a:hover {
+    text-decoration: underline;
 }
 
 .kontakt-mapa {
     grid-area: mapa;
+
+}
+
+.footer {
+    border-top: 3px solid #dc0101;
+    background-color: #fefefe;
+    font-size: 15px;
+}
+
+.footer>.column {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.align-left {
+    text-align: left;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.align-center {
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.align-right {
+    text-align: right;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.red-link {
+    text-decoration: none;
+    color: #dc0101
+}
+
+red-link:hover {
+    text-decoration: underline;
 }
