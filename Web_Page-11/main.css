@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wall {
+    width: 100vw;
+    height: 100vw;
+
+    background: url(trava.png) center bottom repeat-x,
+                 url(cigle.jpg) center bottom repeat;
+
+
+    background-size: auto 300px,
+        400px auto;
+}
