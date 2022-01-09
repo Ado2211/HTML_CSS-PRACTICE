@@ -1,0 +1,24 @@
+:root {
+    --velicina-teksta: 36px;
+    --boja-teksta: red;
+    --prored: 5px;
+    --boja-pozadine: rgb(112, 103, 103);
+    --boja-naslova: rgb(233, 236, 24);
+}
+.tekst {
+font-size: var(--velicina-teksta);
+color: var(--boja-teksta);
+margin: var(--prored);
+background-color: var(--boja-pozadine);
+
+}
+
+h1 {
+    color: var(--boja-naslova);
+}
+/*body {
+    font-size: calc(var(--velicina-teksta) * 3);
+    color: var(--boja-teksta);
+    margin: calc(var(--prored) + 5);
+    background-color: var(--boja-pozadine);
+}*/
