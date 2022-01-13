@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tab Index</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <label class="space" for="ime">Ime:</label> 
+        <input tabindex="1" type="text" id ="ime"> 
+        
+        <button tabindex="5">Potvrdi</button><br>
+
+        <label class="space" for="prezime">Prezime:</label> 
+        <input tabindex="2" type="text" id ="Prezime"><br>
+
+        <label class="space" for="telefon">Telefon:</label> 
+        <input tabindex="3" type="tel" id ="telefon"><br>
+
+        <span class="space"></span> 
+
+        <button tabindex="-1">Osvježi</button> 
+        <button tabindex="7">Poništi</button><br>
+        
+        <p tabindex="4">Neki tekst koji objašnjava šta će se desiti kad se pošalje formular.</p>
+        <div tabindex="0">Neki potpuno proizvoljan tekst 1</div>
+    </body>
+</html>
